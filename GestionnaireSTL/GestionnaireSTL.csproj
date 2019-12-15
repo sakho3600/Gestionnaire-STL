@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34F668D3-FCB8-4EB8-8218-D3F6563CDA9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GestionnaireSTL</RootNamespace>
+    <AssemblyName>GestionnaireSTL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 8.0.16\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceuil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceuil.Designer.cs">
+      <DependentUpon>Acceuil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Tarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Tarif.Designer.cs">
+      <DependentUpon>Modification_Tarif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recherche_Véhicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recherche_Véhicule.Designer.cs">
+      <DependentUpon>Recherche_Véhicule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Tarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Tarif.Designer.cs">
+      <DependentUpon>Suppression_Tarif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Compte.Designer.cs">
+      <DependentUpon>Ajout_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Compte_Saisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Compte_Saisie.Designer.cs">
+      <DependentUpon>Modification_Compte_Saisie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Compte.Designer.cs">
+      <DependentUpon>Modification_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Compte.Designer.cs">
+      <DependentUpon>Suppression_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Espace_Agent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Espace_Agent.Designer.cs">
+      <DependentUpon>Espace_Agent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Client_Tunisien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Client_Tunisien.Designer.cs">
+      <DependentUpon>Ajout_Client_Tunisien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Client_Etranger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Client_Etranger.Designer.cs">
+      <DependentUpon>Ajout_Client_Etranger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Client_Entreprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Client_Entreprise.Designer.cs">
+      <DependentUpon>Ajout_Client_Entreprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Client_Saisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Client_Saisie.Designer.cs">
+      <DependentUpon>Modification_Client_Saisie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Client_Entreprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Client_Entreprise.Designer.cs">
+      <DependentUpon>Modification_Client_Entreprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Client_Etranger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Client_Etranger.Designer.cs">
+      <DependentUpon>Modification_Client_Etranger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Client_Tunisien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Client_Tunisien.Designer.cs">
+      <DependentUpon>Modification_Client_Tunisien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Client.Designer.cs">
+      <DependentUpon>Suppression_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Facture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Facture.Designer.cs">
+      <DependentUpon>Ajout_Facture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Facture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Facture.Designer.cs">
+      <DependentUpon>Modification_Facture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Facture_Saisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Facture_Saisie.Designer.cs">
+      <DependentUpon>Modification_Facture_Saisie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Facture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Facture.Designer.cs">
+      <DependentUpon>Suppression_Facture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Contrat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Contrat.Designer.cs">
+      <DependentUpon>Ajout_Contrat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Espace_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Espace_Admin.Designer.cs">
+      <DependentUpon>Espace_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Contrat_Saisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Contrat_Saisie.Designer.cs">
+      <DependentUpon>Modification_Contrat_Saisie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Contrat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Contrat.Designer.cs">
+      <DependentUpon>Modification_Contrat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Contrat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Contrat.Designer.cs">
+      <DependentUpon>Suppression_Contrat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Véhicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Véhicule.Designer.cs">
+      <DependentUpon>Ajout_Véhicule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Véhicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Véhicule.Designer.cs">
+      <DependentUpon>Modification_Véhicule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Véhicule_Saisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Véhicule_Saisie.Designer.cs">
+      <DependentUpon>Modification_Véhicule_Saisie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Véhicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Véhicule.Designer.cs">
+      <DependentUpon>Suppression_Véhicule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Tarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Tarif.Designer.cs">
+      <DependentUpon>Ajout_Tarif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Tarif_Saisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Tarif_Saisie.Designer.cs">
+      <DependentUpon>Modification_Tarif_Saisie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Acceuil.resx">
+      <DependentUpon>Acceuil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Tarif.resx">
+      <DependentUpon>Modification_Tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recherche_Véhicule.resx">
+      <DependentUpon>Recherche_Véhicule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Tarif.resx">
+      <DependentUpon>Suppression_Tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Compte.resx">
+      <DependentUpon>Ajout_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Compte_Saisie.resx">
+      <DependentUpon>Modification_Compte_Saisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Compte.resx">
+      <DependentUpon>Modification_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Compte.resx">
+      <DependentUpon>Suppression_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Espace_Agent.resx">
+      <DependentUpon>Espace_Agent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Client_Tunisien.resx">
+      <DependentUpon>Ajout_Client_Tunisien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Client_Etranger.resx">
+      <DependentUpon>Ajout_Client_Etranger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Client_Entreprise.resx">
+      <DependentUpon>Ajout_Client_Entreprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Client_Saisie.resx">
+      <DependentUpon>Modification_Client_Saisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Client_Entreprise.resx">
+      <DependentUpon>Modification_Client_Entreprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Client_Etranger.resx">
+      <DependentUpon>Modification_Client_Etranger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Client_Tunisien.resx">
+      <DependentUpon>Modification_Client_Tunisien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Client.resx">
+      <DependentUpon>Suppression_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Facture.resx">
+      <DependentUpon>Ajout_Facture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Facture.resx">
+      <DependentUpon>Modification_Facture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Facture_Saisie.resx">
+      <DependentUpon>Modification_Facture_Saisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Facture.resx">
+      <DependentUpon>Suppression_Facture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Contrat.resx">
+      <DependentUpon>Ajout_Contrat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Espace_Admin.resx">
+      <DependentUpon>Espace_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Contrat_Saisie.resx">
+      <DependentUpon>Modification_Contrat_Saisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Contrat.resx">
+      <DependentUpon>Modification_Contrat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Contrat.resx">
+      <DependentUpon>Suppression_Contrat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Véhicule.resx">
+      <DependentUpon>Ajout_Véhicule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Véhicule.resx">
+      <DependentUpon>Modification_Véhicule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Véhicule_Saisie.resx">
+      <DependentUpon>Modification_Véhicule_Saisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Véhicule.resx">
+      <DependentUpon>Suppression_Véhicule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Tarif.resx">
+      <DependentUpon>Ajout_Tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Tarif_Saisie.resx">
+      <DependentUpon>Modification_Tarif_Saisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
