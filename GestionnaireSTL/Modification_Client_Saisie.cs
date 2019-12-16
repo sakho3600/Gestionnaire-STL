@@ -50,8 +50,9 @@ namespace GestionnaireSTL
                             {
                                 rd.Close();
                                 Modification_Client_Tunisien F23 = new Modification_Client_Tunisien();
-                                this.Close();
                                 F23.Show();
+                                FormsApplication.AddForm(F23);
+                                this.Close();                                
                             }
                             else
                                 MessageBox.Show("Client non existant!");
@@ -71,8 +72,9 @@ namespace GestionnaireSTL
                             {
                                 rd.Close();
                                 Modification_Client_Etranger F22 = new Modification_Client_Etranger();
-                                this.Close();
                                 F22.Show();
+                                FormsApplication.AddForm(F22);
+                                this.Close();                                
                             }
                             else
                                 MessageBox.Show("Client non existant!");
@@ -92,8 +94,9 @@ namespace GestionnaireSTL
                             {
                                 rd.Close();
                                 Modification_Client_Entreprise F21 = new Modification_Client_Entreprise();
-                                this.Close();
                                 F21.Show();
+                                FormsApplication.AddForm(F21);
+                                this.Close();                                
                             }
                             else
                                 MessageBox.Show("Client non existant!");
@@ -111,8 +114,9 @@ namespace GestionnaireSTL
         private void button2_Click(object sender, EventArgs e)
         {
             Espace_Agent F16 = new Espace_Agent();
-            this.Close();
             F16.Show();
+            FormsApplication.AddForm(F16);
+            this.Close();            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

@@ -45,64 +45,73 @@ namespace GestionnaireSTL
         private void ajouterVéhiculeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ajout_Véhicule F4 = new Ajout_Véhicule();
-            this.Close();
             F4.Show();
+            FormsApplication.AddForm(F4);
+            this.Close();            
         }
 
         private void modifierVéhiculeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modification_Véhicule_Saisie F6 = new Modification_Véhicule_Saisie();
-            this.Close();
             F6.Show();
+            FormsApplication.AddForm(F6);
+            this.Close();            
         }
 
         private void supprimerVéhiculeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Suppression_Véhicule F7 = new Suppression_Véhicule();
-            this.Close();
             F7.Show();
+            FormsApplication.AddForm(F7);
+            this.Close();            
         }
 
         private void ajouterTarifToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ajout_Tarif F8 = new Ajout_Tarif();
-            this.Close();
             F8.Show();
+            FormsApplication.AddForm(F8);
+            this.Close();            
         }
 
         private void modifierTarifToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modification_Tarif_Saisie F9 = new Modification_Tarif_Saisie();
-            this.Close();
             F9.Show();
+            FormsApplication.AddForm(F9);
+            this.Close();            
         }
 
         private void supprimerTarifToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Suppression_Tarif F11 = new Suppression_Tarif();
-            this.Close();
             F11.Show();
+            FormsApplication.AddForm(F11);
+            this.Close();            
         }
 
         private void ajouterCompteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ajout_Compte F12 = new Ajout_Compte();
-            this.Close();
             F12.Show();
+            FormsApplication.AddForm(F12);
+            this.Close();            
         }
 
         private void modifierCompteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modification_Compte_Saisie F13 = new Modification_Compte_Saisie();
-            this.Close();
             F13.Show();
+            FormsApplication.AddForm(F13);
+            this.Close();            
         }
 
         private void supprimerCompteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Suppression_Compte F15 = new Suppression_Compte();
-            this.Close();
             F15.Show();
+            FormsApplication.AddForm(F15);
+            this.Close();            
         }
     }
 }

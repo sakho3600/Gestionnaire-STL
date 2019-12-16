@@ -26,8 +26,9 @@ namespace GestionnaireSTL
         private void button2_Click(object sender, EventArgs e)
         {
             Acceuil F1 = new Acceuil(); 
-            this.Close();
             F1.Show();
+            FormsApplication.AddForm(F1);
+            this.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -65,15 +66,17 @@ namespace GestionnaireSTL
                     {
                         cnx.Close();
                         Form3 F3 = new Form3();
-                        this.Close();
                         F3.Show();
+                        FormsApplication.AddForm(F3);
+                        this.Close();
                     }
                     else if ((string)rd[6] == "Agent")
                     {
                         cnx.Close();
                         Espace_Agent F16 = new Espace_Agent();
-                        this.Close();
                         F16.Show();
+                        FormsApplication.AddForm(F16);
+                        this.Close();
                     }
                 }
                 else

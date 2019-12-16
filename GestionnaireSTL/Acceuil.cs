@@ -35,8 +35,9 @@ namespace GestionnaireSTL
         private void button1_Click(object sender, EventArgs e)
         {
             Authentification F2 = new Authentification();
-            this.Hide();
             F2.Show();
+            FormsApplication.AddForm(F2);
+            this.Close();
         }
 
         private void Form1_Load(object sender, EventArgs e)

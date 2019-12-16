@@ -48,8 +48,9 @@ namespace GestionnaireSTL
         private void button2_Click(object sender, EventArgs e)
         {
             Espace_Agent F16 = new Espace_Agent();
-            this.Close();
             F16.Show();
+            FormsApplication.AddForm(F16);
+            this.Close();
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
