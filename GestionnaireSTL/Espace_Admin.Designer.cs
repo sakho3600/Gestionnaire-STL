@@ -1,6 +1,6 @@
 ﻿namespace GestionnaireSTL
 {
-    partial class Form3
+    partial class Espace_Admin
     {
         /// <summary>
         /// Required designer variable.
@@ -32,14 +32,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gérerLeParcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afficherVéhiculesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gérerLesComptesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.affichageComptesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gérerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afficherTarifsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterTarifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierTarifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerTarifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,9 +57,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(157, 160);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(314, 32);
+            this.label1.Size = new System.Drawing.Size(317, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Espace administrateur";
+            this.label1.Text = "Espace Administrateur";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -86,6 +89,7 @@
             // gérerLeParcToolStripMenuItem
             // 
             this.gérerLeParcToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.afficherVéhiculesToolStripMenuItem,
             this.ajouterVéhiculeToolStripMenuItem,
             this.modifierVéhiculeToolStripMenuItem,
             this.supprimerVéhiculeToolStripMenuItem});
@@ -93,6 +97,13 @@
             this.gérerLeParcToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.gérerLeParcToolStripMenuItem.Text = "Gérer le parc";
             this.gérerLeParcToolStripMenuItem.Click += new System.EventHandler(this.gérerLeParcToolStripMenuItem_Click);
+            // 
+            // afficherVéhiculesToolStripMenuItem
+            // 
+            this.afficherVéhiculesToolStripMenuItem.Name = "afficherVéhiculesToolStripMenuItem";
+            this.afficherVéhiculesToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.afficherVéhiculesToolStripMenuItem.Text = "Afficher véhicules";
+            this.afficherVéhiculesToolStripMenuItem.Click += new System.EventHandler(this.afficherVéhiculesToolStripMenuItem_Click);
             // 
             // ajouterVéhiculeToolStripMenuItem
             // 
@@ -118,6 +129,7 @@
             // gérerLesComptesToolStripMenuItem
             // 
             this.gérerLesComptesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.affichageComptesToolStripMenuItem,
             this.ajouterCompteToolStripMenuItem,
             this.modifierCompteToolStripMenuItem,
             this.supprimerCompteToolStripMenuItem});
@@ -125,36 +137,51 @@
             this.gérerLesComptesToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
             this.gérerLesComptesToolStripMenuItem.Text = "Gérer les comptes";
             // 
+            // affichageComptesToolStripMenuItem
+            // 
+            this.affichageComptesToolStripMenuItem.Name = "affichageComptesToolStripMenuItem";
+            this.affichageComptesToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.affichageComptesToolStripMenuItem.Text = "Affichage comptes";
+            this.affichageComptesToolStripMenuItem.Click += new System.EventHandler(this.affichageComptesToolStripMenuItem_Click);
+            // 
             // ajouterCompteToolStripMenuItem
             // 
             this.ajouterCompteToolStripMenuItem.Name = "ajouterCompteToolStripMenuItem";
-            this.ajouterCompteToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.ajouterCompteToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.ajouterCompteToolStripMenuItem.Text = "Ajouter compte";
             this.ajouterCompteToolStripMenuItem.Click += new System.EventHandler(this.ajouterCompteToolStripMenuItem_Click);
             // 
             // modifierCompteToolStripMenuItem
             // 
             this.modifierCompteToolStripMenuItem.Name = "modifierCompteToolStripMenuItem";
-            this.modifierCompteToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.modifierCompteToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.modifierCompteToolStripMenuItem.Text = "Modifier compte";
             this.modifierCompteToolStripMenuItem.Click += new System.EventHandler(this.modifierCompteToolStripMenuItem_Click);
             // 
             // supprimerCompteToolStripMenuItem
             // 
             this.supprimerCompteToolStripMenuItem.Name = "supprimerCompteToolStripMenuItem";
-            this.supprimerCompteToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.supprimerCompteToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.supprimerCompteToolStripMenuItem.Text = "Supprimer compte";
             this.supprimerCompteToolStripMenuItem.Click += new System.EventHandler(this.supprimerCompteToolStripMenuItem_Click);
             // 
             // gérerToolStripMenuItem
             // 
             this.gérerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.afficherTarifsToolStripMenuItem,
             this.ajouterTarifToolStripMenuItem,
             this.modifierTarifToolStripMenuItem,
             this.supprimerTarifToolStripMenuItem});
             this.gérerToolStripMenuItem.Name = "gérerToolStripMenuItem";
             this.gérerToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
             this.gérerToolStripMenuItem.Text = "Gérer les tarifs";
+            // 
+            // afficherTarifsToolStripMenuItem
+            // 
+            this.afficherTarifsToolStripMenuItem.Name = "afficherTarifsToolStripMenuItem";
+            this.afficherTarifsToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.afficherTarifsToolStripMenuItem.Text = "Afficher tarifs";
+            this.afficherTarifsToolStripMenuItem.Click += new System.EventHandler(this.afficherTarifsToolStripMenuItem_Click);
             // 
             // ajouterTarifToolStripMenuItem
             // 
@@ -184,7 +211,7 @@
             this.quitterToolStripMenuItem.Text = "Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
-            // Form3
+            // Espace_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -192,8 +219,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Form3";
-            this.Text = "Espace admin";
+            this.Name = "Espace_Admin";
+            this.Text = "Espace Admin";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -220,5 +247,8 @@
         private System.Windows.Forms.ToolStripMenuItem modifierTarifToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem supprimerTarifToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem afficherTarifsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem affichageComptesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem afficherVéhiculesToolStripMenuItem;
     }
 }

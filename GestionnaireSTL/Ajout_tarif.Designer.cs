@@ -52,6 +52,7 @@
             this.label6.Size = new System.Drawing.Size(76, 16);
             this.label6.TabIndex = 27;
             this.label6.Text = "Catégorie";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button2
             // 
@@ -97,9 +98,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(135, 270);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(173, 16);
+            this.label4.Size = new System.Drawing.Size(182, 16);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Tarif de l’heure travaillé";
+            this.label4.Text = "Tarif de l’heure travaillée";
             // 
             // label3
             // 
@@ -128,9 +129,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(237, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 32);
+            this.label1.Size = new System.Drawing.Size(151, 32);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Ajout tarif";
+            this.label1.Text = "Ajout Tarif";
             // 
             // comboBox4
             // 
@@ -169,7 +170,7 @@
             this.textBox4.TabIndex = 36;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // Form8
+            // Ajout_Tarif
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -187,8 +188,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form8";
-            this.Text = "Ajout tarif";
+            this.Name = "Ajout_Tarif";
+            this.Text = "Ajout Tarif";
             this.Load += new System.EventHandler(this.Form8_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

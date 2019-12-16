@@ -47,7 +47,7 @@ namespace GestionnaireSTL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 F3 = new Form3();
+            Espace_Admin F3 = new Espace_Admin();
             F3.Show();
             FormsApplication.AddForm(F3);
             this.Close();

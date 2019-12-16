@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace GestionnaireSTL
 {
-    public partial class Modification_Véhicule : Form
+    public partial class Modification_Vehicule : Form
     {
-        public Modification_Véhicule()
+        public Modification_Vehicule()
         {
             InitializeComponent();
         }
@@ -61,7 +61,7 @@ namespace GestionnaireSTL
             else
                 etat = "Neuf";
             cmd.Parameters.AddWithValue("@etat", etat);
-            cmd.Parameters.AddWithValue("@search_chassis", Modification_Véhicule_Saisie.chassis); 
+            cmd.Parameters.AddWithValue("@search_chassis", Modification_Vehicule_Saisie.chassis); 
             if (cmd.ExecuteNonQuery() != 0)
                 MessageBox.Show("Vehicule modifié!");
             else
@@ -96,7 +96,7 @@ namespace GestionnaireSTL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 F3 = new Form3();
+            Espace_Admin F3 = new Espace_Admin();
             F3.Show();
             FormsApplication.AddForm(F3);
             this.Close();

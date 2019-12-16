@@ -80,9 +80,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(147, 300);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(114, 16);
+            this.label6.Size = new System.Drawing.Size(92, 16);
             this.label6.TabIndex = 40;
-            this.label6.Text = "Numéro de tarif";
+            this.label6.Text = "Numéro tarif";
             // 
             // label1
             // 
@@ -91,12 +91,12 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(194, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 32);
+            this.label1.Size = new System.Drawing.Size(248, 32);
             this.label1.TabIndex = 39;
-            this.label1.Text = "Suppression tarif";
+            this.label1.Text = "Suppression Tarif";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form11
+            // Suppression_Tarif
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -107,8 +107,8 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Name = "Form11";
-            this.Text = "Suppression tarif";
+            this.Name = "Suppression_Tarif";
+            this.Text = "Suppression Tarif";
             this.ResumeLayout(false);
             this.PerformLayout();
 

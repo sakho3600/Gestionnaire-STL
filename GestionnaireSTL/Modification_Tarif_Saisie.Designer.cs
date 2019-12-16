@@ -38,7 +38,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(378, 417);
+            this.button2.Location = new System.Drawing.Point(387, 417);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 39;
@@ -48,7 +48,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(176, 417);
+            this.button1.Location = new System.Drawing.Point(185, 417);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 38;
@@ -91,11 +91,11 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(193, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(235, 32);
+            this.label1.Size = new System.Drawing.Size(242, 32);
             this.label1.TabIndex = 34;
-            this.label1.Text = "Modification tarif";
+            this.label1.Text = "Modification Tarif";
             // 
-            // Form9
+            // Modification_Tarif_Saisie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +106,8 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Name = "Form9";
-            this.Text = "Modification tarif";
+            this.Name = "Modification_Tarif_Saisie";
+            this.Text = "Modification Tarif";
             this.ResumeLayout(false);
             this.PerformLayout();
 

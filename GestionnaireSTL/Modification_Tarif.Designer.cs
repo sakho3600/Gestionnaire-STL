@@ -70,9 +70,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(190, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(235, 32);
+            this.label1.Size = new System.Drawing.Size(242, 32);
             this.label1.TabIndex = 32;
-            this.label1.Text = "Modification tarif";
+            this.label1.Text = "Modification Tarif";
             // 
             // textBox4
             // 
@@ -145,9 +145,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(140, 284);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(173, 16);
+            this.label4.Size = new System.Drawing.Size(182, 16);
             this.label4.TabIndex = 43;
-            this.label4.Text = "Tarif de l’heure travaillé";
+            this.label4.Text = "Tarif de l’heure travaillée";
             // 
             // label3
             // 
@@ -188,7 +188,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Modification_Tarif";
-            this.Text = "Modification tarif";
+            this.Text = "Modification Tarif";
             this.Load += new System.EventHandler(this.Modification_Tarif_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

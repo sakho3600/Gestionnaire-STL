@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GestionnaireSTL
 {
-    public partial class Form3 : Form
+    public partial class Espace_Admin : Form
     {
-        public Form3()
+        public Espace_Admin()
         {
             InitializeComponent();
         }
@@ -44,7 +44,7 @@ namespace GestionnaireSTL
 
         private void ajouterVéhiculeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Ajout_Véhicule F4 = new Ajout_Véhicule();
+            Ajout_Vehicule F4 = new Ajout_Vehicule();
             F4.Show();
             FormsApplication.AddForm(F4);
             this.Close();            
@@ -52,7 +52,7 @@ namespace GestionnaireSTL
 
         private void modifierVéhiculeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Modification_Véhicule_Saisie F6 = new Modification_Véhicule_Saisie();
+            Modification_Vehicule_Saisie F6 = new Modification_Vehicule_Saisie();
             F6.Show();
             FormsApplication.AddForm(F6);
             this.Close();            
@@ -60,7 +60,7 @@ namespace GestionnaireSTL
 
         private void supprimerVéhiculeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Suppression_Véhicule F7 = new Suppression_Véhicule();
+            Suppression_Vehicule F7 = new Suppression_Vehicule();
             F7.Show();
             FormsApplication.AddForm(F7);
             this.Close();            
@@ -112,6 +112,30 @@ namespace GestionnaireSTL
             F15.Show();
             FormsApplication.AddForm(F15);
             this.Close();            
+        }
+
+        private void afficherTarifsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Tarif F39 = new Affichage_Tarif();
+            F39.Show();
+            FormsApplication.AddForm(F39);
+            this.Close();
+        }
+
+        private void affichageComptesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Compte F40 = new Affichage_Compte();
+            F40.Show();
+            FormsApplication.AddForm(F40);
+            this.Close();
+        }
+
+        private void afficherVéhiculesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Vehicule F41 = new Affichage_Vehicule();
+            F41.Show();
+            FormsApplication.AddForm(F41);
+            this.Close();
         }
     }
 }

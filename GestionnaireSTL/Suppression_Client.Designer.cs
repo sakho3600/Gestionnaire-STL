@@ -40,7 +40,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(378, 435);
+            this.button2.Location = new System.Drawing.Point(380, 435);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 57;
@@ -50,7 +50,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(176, 435);
+            this.button1.Location = new System.Drawing.Point(178, 435);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 56;
@@ -93,9 +93,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(180, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 32);
+            this.label1.Size = new System.Drawing.Size(263, 32);
             this.label1.TabIndex = 52;
-            this.label1.Text = "Suppression client";
+            this.label1.Text = "Suppression Client";
             // 
             // comboBox1
             // 
@@ -120,7 +120,7 @@
             this.label3.TabIndex = 58;
             this.label3.Text = "Type client";
             // 
-            // Form24
+            // Suppression_Client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -133,8 +133,8 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Name = "Form24";
-            this.Text = "Suppression client";
+            this.Name = "Suppression_Client";
+            this.Text = "Suppression Client";
             this.Load += new System.EventHandler(this.Form24_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

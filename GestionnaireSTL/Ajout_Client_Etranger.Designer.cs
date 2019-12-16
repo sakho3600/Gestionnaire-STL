@@ -107,7 +107,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(365, 436);
+            this.button2.Location = new System.Drawing.Point(376, 436);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 75;
@@ -117,7 +117,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(163, 436);
+            this.button1.Location = new System.Drawing.Point(174, 436);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 74;
@@ -160,11 +160,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(228, 36);
+            this.label1.Location = new System.Drawing.Point(175, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 32);
+            this.label1.Size = new System.Drawing.Size(290, 32);
             this.label1.TabIndex = 70;
-            this.label1.Text = "Ajout client";
+            this.label1.Text = "Ajout Client Etranger";
             // 
             // textBox6
             // 
@@ -184,7 +184,7 @@
             this.label2.TabIndex = 83;
             this.label2.Text = "Adresse ";
             // 
-            // Form18
+            // Ajout_Client_Etranger
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -204,8 +204,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Name = "Form18";
-            this.Text = "Ajout client";
+            this.Name = "Ajout_Client_Etranger";
+            this.Text = "Ajout Client Etranger";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -38,7 +38,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(383, 431);
+            this.button2.Location = new System.Drawing.Point(391, 431);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 57;
@@ -48,7 +48,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(181, 431);
+            this.button1.Location = new System.Drawing.Point(189, 431);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 56;
@@ -91,11 +91,11 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(177, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 32);
+            this.label1.Size = new System.Drawing.Size(281, 32);
             this.label1.TabIndex = 52;
-            this.label1.Text = "Modification contrat";
+            this.label1.Text = "Modification Contrat";
             // 
-            // Form30
+            // Modification_Contrat_Saisie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +106,8 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Name = "Form30";
-            this.Text = "Modification  contrat";
+            this.Name = "Modification_Contrat_Saisie";
+            this.Text = "Modification  Contrat";
             this.ResumeLayout(false);
             this.PerformLayout();
 

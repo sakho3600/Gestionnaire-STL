@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace GestionnaireSTL
 {
-    public partial class Recherche_Véhicule : Form
+    public partial class Recherche_Vehicule : Form
     {
-        public Recherche_Véhicule()
+        public Recherche_Vehicule()
         {
             InitializeComponent();
         }

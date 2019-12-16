@@ -32,14 +32,21 @@
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gérerLeParcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afficherContratsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rechercheVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gérerLesComptesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afficherFacturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gérerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afficherClientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientsTunisiensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientsÉtrangersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientsEntreprisesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterTarifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientTunisienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientÉtrangerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,7 +54,6 @@
             this.modifierTarifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerTarifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rechercheVéhiculeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,9 +74,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(207, 151);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 32);
+            this.label1.Size = new System.Drawing.Size(198, 32);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Espace agent";
+            this.label1.Text = "Espace Agent";
             // 
             // menuStrip1
             // 
@@ -88,6 +94,7 @@
             // gérerLeParcToolStripMenuItem
             // 
             this.gérerLeParcToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.afficherContratsToolStripMenuItem,
             this.ajouterVéhiculeToolStripMenuItem,
             this.modifierVéhiculeToolStripMenuItem,
             this.supprimerVéhiculeToolStripMenuItem,
@@ -95,6 +102,13 @@
             this.gérerLeParcToolStripMenuItem.Name = "gérerLeParcToolStripMenuItem";
             this.gérerLeParcToolStripMenuItem.Size = new System.Drawing.Size(110, 20);
             this.gérerLeParcToolStripMenuItem.Text = "Gérer les contrats";
+            // 
+            // afficherContratsToolStripMenuItem
+            // 
+            this.afficherContratsToolStripMenuItem.Name = "afficherContratsToolStripMenuItem";
+            this.afficherContratsToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.afficherContratsToolStripMenuItem.Text = "Afficher contrats";
+            this.afficherContratsToolStripMenuItem.Click += new System.EventHandler(this.afficherContratsToolStripMenuItem_Click);
             // 
             // ajouterVéhiculeToolStripMenuItem
             // 
@@ -117,15 +131,30 @@
             this.supprimerVéhiculeToolStripMenuItem.Text = "Supprimer contrat";
             this.supprimerVéhiculeToolStripMenuItem.Click += new System.EventHandler(this.supprimerVéhiculeToolStripMenuItem_Click);
             // 
+            // rechercheVéhiculeToolStripMenuItem
+            // 
+            this.rechercheVéhiculeToolStripMenuItem.Name = "rechercheVéhiculeToolStripMenuItem";
+            this.rechercheVéhiculeToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.rechercheVéhiculeToolStripMenuItem.Text = "Recherche véhicule";
+            this.rechercheVéhiculeToolStripMenuItem.Click += new System.EventHandler(this.rechercheVéhiculeToolStripMenuItem_Click);
+            // 
             // gérerLesComptesToolStripMenuItem
             // 
             this.gérerLesComptesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.afficherFacturesToolStripMenuItem,
             this.ajouterCompteToolStripMenuItem,
             this.modifierCompteToolStripMenuItem,
             this.supprimerCompteToolStripMenuItem});
             this.gérerLesComptesToolStripMenuItem.Name = "gérerLesComptesToolStripMenuItem";
             this.gérerLesComptesToolStripMenuItem.Size = new System.Drawing.Size(109, 20);
             this.gérerLesComptesToolStripMenuItem.Text = "Gérer les factures";
+            // 
+            // afficherFacturesToolStripMenuItem
+            // 
+            this.afficherFacturesToolStripMenuItem.Name = "afficherFacturesToolStripMenuItem";
+            this.afficherFacturesToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.afficherFacturesToolStripMenuItem.Text = "Afficher factures";
+            this.afficherFacturesToolStripMenuItem.Click += new System.EventHandler(this.afficherFacturesToolStripMenuItem_Click);
             // 
             // ajouterCompteToolStripMenuItem
             // 
@@ -151,12 +180,44 @@
             // gérerToolStripMenuItem
             // 
             this.gérerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.afficherClientsToolStripMenuItem,
             this.ajouterTarifToolStripMenuItem,
             this.modifierTarifToolStripMenuItem,
             this.supprimerTarifToolStripMenuItem});
             this.gérerToolStripMenuItem.Name = "gérerToolStripMenuItem";
             this.gérerToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.gérerToolStripMenuItem.Text = "Gérer les clients";
+            // 
+            // afficherClientsToolStripMenuItem
+            // 
+            this.afficherClientsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clientsTunisiensToolStripMenuItem,
+            this.clientsÉtrangersToolStripMenuItem,
+            this.clientsEntreprisesToolStripMenuItem});
+            this.afficherClientsToolStripMenuItem.Name = "afficherClientsToolStripMenuItem";
+            this.afficherClientsToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.afficherClientsToolStripMenuItem.Text = "Afficher clients";
+            // 
+            // clientsTunisiensToolStripMenuItem
+            // 
+            this.clientsTunisiensToolStripMenuItem.Name = "clientsTunisiensToolStripMenuItem";
+            this.clientsTunisiensToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.clientsTunisiensToolStripMenuItem.Text = "Clients tunisiens";
+            this.clientsTunisiensToolStripMenuItem.Click += new System.EventHandler(this.clientsTunisiensToolStripMenuItem_Click);
+            // 
+            // clientsÉtrangersToolStripMenuItem
+            // 
+            this.clientsÉtrangersToolStripMenuItem.Name = "clientsÉtrangersToolStripMenuItem";
+            this.clientsÉtrangersToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.clientsÉtrangersToolStripMenuItem.Text = "Clients étrangers";
+            this.clientsÉtrangersToolStripMenuItem.Click += new System.EventHandler(this.clientsÉtrangersToolStripMenuItem_Click);
+            // 
+            // clientsEntreprisesToolStripMenuItem
+            // 
+            this.clientsEntreprisesToolStripMenuItem.Name = "clientsEntreprisesToolStripMenuItem";
+            this.clientsEntreprisesToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.clientsEntreprisesToolStripMenuItem.Text = "Entreprises";
+            this.clientsEntreprisesToolStripMenuItem.Click += new System.EventHandler(this.clientsEntreprisesToolStripMenuItem_Click);
             // 
             // ajouterTarifToolStripMenuItem
             // 
@@ -211,13 +272,6 @@
             this.quitterToolStripMenuItem.Text = "Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
-            // rechercheVéhiculeToolStripMenuItem
-            // 
-            this.rechercheVéhiculeToolStripMenuItem.Name = "rechercheVéhiculeToolStripMenuItem";
-            this.rechercheVéhiculeToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
-            this.rechercheVéhiculeToolStripMenuItem.Text = "Recherche véhicule";
-            this.rechercheVéhiculeToolStripMenuItem.Click += new System.EventHandler(this.rechercheVéhiculeToolStripMenuItem_Click);
-            // 
             // Espace_Agent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,7 +281,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Espace_Agent";
-            this.Text = "Espace agent";
+            this.Text = "Espace Agent";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -257,5 +311,11 @@
         private System.Windows.Forms.ToolStripMenuItem clientÉtrangerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem entrepriseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rechercheVéhiculeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem afficherClientsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientsTunisiensToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientsÉtrangersToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientsEntreprisesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem afficherContratsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem afficherFacturesToolStripMenuItem;
     }
 }

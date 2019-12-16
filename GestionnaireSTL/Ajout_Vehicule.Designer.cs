@@ -1,6 +1,6 @@
 ﻿namespace GestionnaireSTL
 {
-    partial class Ajout_Véhicule
+    partial class Ajout_Vehicule
     {
         /// <summary>
         /// Required designer variable.
@@ -48,17 +48,17 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(220, 40);
+            this.label1.Location = new System.Drawing.Point(214, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 32);
+            this.label1.Size = new System.Drawing.Size(203, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Ajout véhicule";
+            this.label1.Text = "Ajout Véhicule";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(135, 192);
+            this.label2.Location = new System.Drawing.Point(135, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 16);
             this.label2.TabIndex = 1;
@@ -79,7 +79,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(135, 277);
+            this.label4.Location = new System.Drawing.Point(135, 282);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 16);
             this.label4.TabIndex = 3;
@@ -89,7 +89,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(135, 322);
+            this.label5.Location = new System.Drawing.Point(135, 326);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 16);
             this.label5.TabIndex = 4;
@@ -113,7 +113,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(174, 432);
+            this.button1.Location = new System.Drawing.Point(184, 432);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 9;
@@ -123,7 +123,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(376, 432);
+            this.button2.Location = new System.Drawing.Point(386, 432);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 10;
@@ -135,11 +135,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(135, 146);
+            this.label6.Location = new System.Drawing.Point(135, 150);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(141, 16);
+            this.label6.Size = new System.Drawing.Size(119, 16);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Numéro de châssis";
+            this.label6.Text = "Numéro châssis";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox5
@@ -209,7 +209,7 @@
             this.comboBox2.TabIndex = 16;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // Ajout_Véhicule
+            // Ajout_Vehicule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -227,8 +227,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Ajout_Véhicule";
-            this.Text = "Ajout véhicule";
+            this.Name = "Ajout_Vehicule";
+            this.Text = "Ajout Véhicule";
             this.ResumeLayout(false);
             this.PerformLayout();
 

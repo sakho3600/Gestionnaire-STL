@@ -97,7 +97,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(380, 428);
+            this.button2.Location = new System.Drawing.Point(385, 428);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 61;
@@ -107,7 +107,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(178, 428);
+            this.button1.Location = new System.Drawing.Point(183, 428);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 60;
@@ -150,11 +150,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(232, 36);
+            this.label1.Location = new System.Drawing.Point(184, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 32);
+            this.label1.Size = new System.Drawing.Size(283, 32);
             this.label1.TabIndex = 54;
-            this.label1.Text = "Ajout client";
+            this.label1.Text = "Ajout Client Tunisien";
             // 
             // textBox1
             // 
@@ -183,7 +183,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "Ajout_Client_Tunisien";
-            this.Text = "Ajout client";
+            this.Text = "Ajout Client Tunisien";
             this.Load += new System.EventHandler(this.Ajout_Client_Tunisien_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

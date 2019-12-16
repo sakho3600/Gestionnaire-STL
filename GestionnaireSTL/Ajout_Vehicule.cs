@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace GestionnaireSTL
 {
-    public partial class Ajout_Véhicule : Form
+    public partial class Ajout_Vehicule : Form
     {
-        public Ajout_Véhicule()
+        public Ajout_Vehicule()
         {
             InitializeComponent();
         }
@@ -120,7 +120,7 @@ namespace GestionnaireSTL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 F3 = new Form3();
+            Espace_Admin F3 = new Espace_Admin();
             F3.Show();
             FormsApplication.AddForm(F3);
             this.Close();            

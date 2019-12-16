@@ -75,7 +75,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(375, 431);
+            this.button2.Location = new System.Drawing.Point(379, 431);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 100;
@@ -85,7 +85,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(173, 431);
+            this.button1.Location = new System.Drawing.Point(177, 431);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 99;
@@ -118,11 +118,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(189, 39);
+            this.label1.Location = new System.Drawing.Point(122, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 32);
+            this.label1.Size = new System.Drawing.Size(403, 32);
             this.label1.TabIndex = 96;
-            this.label1.Text = "Modification client";
+            this.label1.Text = "Modification Client Entreprise";
             // 
             // Modification_Client_Entreprise
             // 
@@ -139,7 +139,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "Modification_Client_Entreprise";
-            this.Text = "Modification client";
+            this.Text = "Modification Client Entreprise";
             this.Load += new System.EventHandler(this.Form21_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

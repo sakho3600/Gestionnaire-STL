@@ -65,7 +65,7 @@ namespace GestionnaireSTL
                     if ((string)rd[6] == "Admin")
                     {
                         cnx.Close();
-                        Form3 F3 = new Form3();
+                        Espace_Admin F3 = new Espace_Admin();
                         F3.Show();
                         FormsApplication.AddForm(F3);
                         this.Close();

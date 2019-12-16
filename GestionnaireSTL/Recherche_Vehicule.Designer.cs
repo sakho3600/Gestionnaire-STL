@@ -1,6 +1,6 @@
 ﻿namespace GestionnaireSTL
 {
-    partial class Recherche_Véhicule
+    partial class Recherche_Vehicule
     {
         /// <summary>
         /// Required designer variable.
@@ -45,7 +45,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(373, 427);
+            this.button2.Location = new System.Drawing.Point(382, 427);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 65;
@@ -55,7 +55,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(171, 427);
+            this.button1.Location = new System.Drawing.Point(180, 427);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 64;
@@ -70,9 +70,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(174, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 32);
+            this.label1.Size = new System.Drawing.Size(278, 32);
             this.label1.TabIndex = 60;
-            this.label1.Text = "Recherche véhicule";
+            this.label1.Text = "Recherche Véhicule";
             // 
             // label10
             // 
@@ -92,7 +92,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(35, 16);
             this.label9.TabIndex = 149;
-            this.label9.Text = "Etat";
+            this.label9.Text = "État";
             // 
             // comboBox1
             // 
@@ -177,7 +177,7 @@
             this.comboBox3.TabIndex = 153;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
-            // Recherche_Véhicule
+            // Recherche_Vehicule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -195,8 +195,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "Recherche_Véhicule";
-            this.Text = "Recherche véhicule";
+            this.Name = "Recherche_Vehicule";
+            this.Text = "Recherche Véhicule";
             this.ResumeLayout(false);
             this.PerformLayout();
 

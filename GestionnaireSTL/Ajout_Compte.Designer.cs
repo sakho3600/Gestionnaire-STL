@@ -83,7 +83,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(376, 433);
+            this.button2.Location = new System.Drawing.Point(385, 433);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 44;
@@ -93,7 +93,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(174, 433);
+            this.button1.Location = new System.Drawing.Point(183, 433);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 43;
@@ -145,9 +145,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(134, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 16);
+            this.label2.Size = new System.Drawing.Size(102, 16);
             this.label2.TabIndex = 38;
-            this.label2.Text = "Mod de passe";
+            this.label2.Text = "Mot de passe";
             // 
             // label1
             // 
@@ -156,9 +156,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(216, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 32);
+            this.label1.Size = new System.Drawing.Size(193, 32);
             this.label1.TabIndex = 37;
-            this.label1.Text = "Ajout compte";
+            this.label1.Text = "Ajout Compte";
             // 
             // textBox5
             // 
@@ -209,7 +209,7 @@
             this.textBox6.TabIndex = 54;
             this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
-            // Form12
+            // Ajout_Compte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,8 +231,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form12";
-            this.Text = "Ajout compte";
+            this.Name = "Ajout_Compte";
+            this.Text = "Ajout Compte";
             this.ResumeLayout(false);
             this.PerformLayout();
 

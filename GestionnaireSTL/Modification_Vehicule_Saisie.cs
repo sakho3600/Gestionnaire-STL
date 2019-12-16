@@ -11,10 +11,10 @@ using MySql.Data.MySqlClient;
 
 namespace GestionnaireSTL
 {
-    public partial class Modification_Véhicule_Saisie : Form
+    public partial class Modification_Vehicule_Saisie : Form
     {
         public static int chassis;
-        public Modification_Véhicule_Saisie()
+        public Modification_Vehicule_Saisie()
         {
             InitializeComponent();
         }
@@ -40,7 +40,7 @@ namespace GestionnaireSTL
             {
                 if (rd.Read())
                 {
-                    Modification_Véhicule F5 = new Modification_Véhicule();
+                    Modification_Vehicule F5 = new Modification_Vehicule();
                     this.Close();
                     F5.Show();
                 }
@@ -56,7 +56,7 @@ namespace GestionnaireSTL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 F3 = new Form3();
+            Espace_Admin F3 = new Espace_Admin();
             F3.Show();
             FormsApplication.AddForm(F3);
             this.Close();

@@ -54,9 +54,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(175, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(280, 32);
+            this.label1.Size = new System.Drawing.Size(284, 32);
             this.label1.TabIndex = 41;
-            this.label1.Text = "Modification compte";
+            this.label1.Text = "Modification Compte";
             // 
             // comboBox1
             // 
@@ -134,7 +134,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(370, 436);
+            this.button2.Location = new System.Drawing.Point(384, 435);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 60;
@@ -144,7 +144,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(168, 436);
+            this.button1.Location = new System.Drawing.Point(182, 435);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 59;
@@ -196,9 +196,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(135, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 16);
+            this.label2.Size = new System.Drawing.Size(102, 16);
             this.label2.TabIndex = 54;
-            this.label2.Text = "Mod de passe";
+            this.label2.Text = "Mot de passe";
             // 
             // textBox6
             // 
@@ -231,7 +231,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Modification_Compte";
-            this.Text = "Modification compte";
+            this.Text = "Modification Compte";
             this.Load += new System.EventHandler(this.Form14_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

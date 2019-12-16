@@ -1,6 +1,6 @@
 ﻿namespace GestionnaireSTL
 {
-    partial class Suppression_Véhicule
+    partial class Suppression_Vehicule
     {
         /// <summary>
         /// Required designer variable.
@@ -43,13 +43,13 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(168, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 32);
+            this.label1.Size = new System.Drawing.Size(300, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Suppression véhicule";
+            this.label1.Text = "Suppression Véhicule";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(376, 421);
+            this.button2.Location = new System.Drawing.Point(386, 421);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 38;
@@ -59,7 +59,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(174, 421);
+            this.button1.Location = new System.Drawing.Point(184, 421);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 37;
@@ -91,11 +91,11 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(130, 281);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(141, 16);
+            this.label6.Size = new System.Drawing.Size(119, 16);
             this.label6.TabIndex = 34;
-            this.label6.Text = "Numéro de châssis";
+            this.label6.Text = "Numéro châssis";
             // 
-            // Form7
+            // Suppression_Vehicule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +106,8 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Name = "Form7";
-            this.Text = "Suppression véhicule";
+            this.Name = "Suppression_Vehicule";
+            this.Text = "Suppression Véhicule";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -38,7 +38,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(378, 432);
+            this.button2.Location = new System.Drawing.Point(379, 432);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 50;
@@ -48,7 +48,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(176, 432);
+            this.button1.Location = new System.Drawing.Point(177, 432);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 49;
@@ -73,9 +73,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(176, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(286, 32);
+            this.label1.Size = new System.Drawing.Size(290, 32);
             this.label1.TabIndex = 45;
-            this.label1.Text = "Suppression compte";
+            this.label1.Text = "Suppression Compte";
             // 
             // textBox5
             // 
@@ -107,7 +107,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Suppression_Compte";
-            this.Text = "Suppression compte";
+            this.Text = "Suppression Compte";
             this.Load += new System.EventHandler(this.Form15_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

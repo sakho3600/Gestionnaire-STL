@@ -117,10 +117,50 @@ namespace GestionnaireSTL
 
         private void rechercheVéhiculeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Recherche_Véhicule F33 = new Recherche_Véhicule();
+            Recherche_Vehicule F33 = new Recherche_Vehicule();
             F33.Show();
             FormsApplication.AddForm(F33);
             this.Close();            
+        }
+
+        private void clientsEntreprisesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Client_Entreprise F36 = new Affichage_Client_Entreprise();
+            F36.Show();
+            FormsApplication.AddForm(F36);
+            this.Close();
+        }
+
+        private void clientsTunisiensToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Client_Tunisien F34 = new Affichage_Client_Tunisien();
+            F34.Show();
+            FormsApplication.AddForm(F34);
+            this.Close();
+        }
+
+        private void clientsÉtrangersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Client_Etranger F35 = new Affichage_Client_Etranger();
+            F35.Show();
+            FormsApplication.AddForm(F35);
+            this.Close();
+        }
+
+        private void afficherFacturesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Facture F37 = new Affichage_Facture();
+            F37.Show();
+            FormsApplication.AddForm(F37);
+            this.Close();
+        }
+
+        private void afficherContratsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Affichage_Contrat F38 = new Affichage_Contrat();
+            F38.Show();
+            FormsApplication.AddForm(F38);
+            this.Close();
         }
     }
 }

@@ -38,7 +38,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(378, 438);
+            this.button2.Location = new System.Drawing.Point(387, 438);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 63;
@@ -48,7 +48,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(176, 438);
+            this.button1.Location = new System.Drawing.Point(185, 438);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 62;
@@ -91,9 +91,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(179, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(282, 32);
+            this.label1.Size = new System.Drawing.Size(289, 32);
             this.label1.TabIndex = 58;
-            this.label1.Text = "Suppression facture";
+            this.label1.Text = "Suppression Facture";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Suppression_Facture
@@ -108,7 +108,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Name = "Suppression_Facture";
-            this.Text = "Suppression facture";
+            this.Text = "Suppression Facture";
             this.Load += new System.EventHandler(this.Suppression_Facture_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

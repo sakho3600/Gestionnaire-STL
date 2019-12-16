@@ -38,7 +38,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(381, 430);
+            this.button2.Location = new System.Drawing.Point(388, 430);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 63;
@@ -48,7 +48,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(179, 430);
+            this.button1.Location = new System.Drawing.Point(186, 430);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 62;
@@ -91,9 +91,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(173, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(283, 32);
+            this.label1.Size = new System.Drawing.Size(287, 32);
             this.label1.TabIndex = 58;
-            this.label1.Text = "Suppression contrat";
+            this.label1.Text = "Suppression Contrat";
             // 
             // Suppression_Contrat
             // 
@@ -107,7 +107,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Name = "Suppression_Contrat";
-            this.Text = "Suppression contrat";
+            this.Text = "Suppression Contrat";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,6 +1,6 @@
 ﻿namespace GestionnaireSTL
 {
-    partial class Modification_Véhicule_Saisie
+    partial class Modification_Vehicule_Saisie
     {
         /// <summary>
         /// Required designer variable.
@@ -43,9 +43,9 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(169, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 32);
+            this.label1.Size = new System.Drawing.Size(294, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Modification véhicule";
+            this.label1.Text = "Modification Véhicule";
             // 
             // textBox5
             // 
@@ -61,9 +61,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(133, 273);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(141, 16);
+            this.label6.Size = new System.Drawing.Size(119, 16);
             this.label6.TabIndex = 29;
-            this.label6.Text = "Numéro de châssis";
+            this.label6.Text = "Numéro châssis";
             // 
             // label2
             // 
@@ -77,7 +77,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(384, 419);
+            this.button2.Location = new System.Drawing.Point(385, 419);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 33;
@@ -87,7 +87,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(182, 419);
+            this.button1.Location = new System.Drawing.Point(183, 419);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 32;
@@ -95,7 +95,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Modification_Véhicule_Saisie
+            // Modification_Vehicule_Saisie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +106,8 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Name = "Modification_Véhicule_Saisie";
-            this.Text = "Modification véhicule";
+            this.Name = "Modification_Vehicule_Saisie";
+            this.Text = "Modification Véhicule";
             this.ResumeLayout(false);
             this.PerformLayout();
 
